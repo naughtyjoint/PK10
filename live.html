@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!--[if IE 7 ]>  <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+    <!--[if IE 8 ]>  <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+    <!--[if IE 9 ]>  <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+    <meta name="description" content="" />
+
+    <!-- Favicons Icon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+    <!-- Page Title Here -->
+    <title>PKBar Online</title>
+
+    <!-- Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+	<![endif]-->
+
+
+    <!-- BOOTSTRAP STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- FONTAWESOME STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css" />
+    <!-- FLATICON STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/flaticon.min.css">
+    <!-- ANIMATE STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <!-- OWL CAROUSEL STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <!-- BOOTSTRAP SELECT BOX STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <!-- MAGNIFIC POPUP STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css">
+    <!-- LOADER STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/loader.min.css">
+    <!-- MAIN STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- THEME COLOR CHANGE STYLE SHEET -->
+    <link rel="stylesheet" class="skin" type="text/css" href="css/skin/skin-1.css">
+    <!-- CUSTOM  STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+
+
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,800,700italic' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+
+    <div class="page-wraper">
+
+        <!-- HEADER START -->
+        <header class="site-header header-style-1 ">
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row">
+                        <!--
+                        <div class="wt-topbar-left clearfix">
+                            <ul class="list-unstyled e-p-bx pull-right">
+                                <li><i class="fa fa-envelope"></i>mail@xxx.com</li>
+                                <li><i class="fa fa-phone"></i>(888) 123-4567</li>
+                            </ul>
+                        </div>
+                        -->
+                        <div class="wt-topbar-right clearfix">
+                            <ul class="list-unstyled e-p-bx pull-right">
+
+                                <li><i class="fa fa-envelope"></i>mail@xxx.com</li>
+
+                                <li>
+                                    <button id="loginButton" class="m-b15 graphical  btn-primary blue  m-r5" onClick="logInWithFacebook()" type="button" style="display:none;padding:0;margin:0;border:0;">
+                                        <span class="site-button-inr">
+                                            <i class="fa fa-facebook-f" style="line-height:20px;"></i> <span style="padding:10px 5px 5px 0px;text-align:left;">登入</span>
+                                        </span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button id="logoutButton" class="m-b15 graphical  btn-primary blue  m-r5" onClick="logoutWithFacebook()" type="button" style="display:none;padding:0;margin:0;border:0;">
+                                        <span class="site-button-inr">
+                                            <i class="fa fa-facebook-f" style="line-height:20px;"></i> <span id="nameBlock"></span> <span style="padding:10px 5px 5px 0px;text-align:left;">登出</span>
+                                        </span>
+                                    </button>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sticky-header main-bar-wraper">
+                <div class="main-bar bg-white">
+                    <div class="container">
+                        <div class="logo-header">
+                            <a href="index.html">
+                                <img src="images/logo.png" width="43" height="20" alt="" />
+                            </a>
+                        </div>
+                        <!-- NAV Toggle Button -->
+                        <button data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggle collapsed">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <!-- MAIN Vav -->
+                        <div class="header-nav navbar-collapse collapse ">
+                            <ul class=" nav navbar-nav">
+                                <li>
+                                    <a href="index.html">首頁</a>
+                                </li>
+                                <li class="active">
+                                    <a href="live.html">直播節目</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER END -->
+
+        <!-- CONTENT START -->
+        <div class="page-content">
+            <!-- SECTION CONTENT START -->
+            <div class="section-full p-t80 p-b50">
+
+                <div class="container">
+                    <div class="row">
+                        <!-- SIDE BAR START -->
+                        <div class="col-md-3">
+                            <aside class="side-bar">
+                                <!-- SEARCH BLOCK START -->
+                                <div class="widget">
+                                    <h4 class="widget-title">搜尋</h4>
+                                    <div class="search-bx">
+                                        <form role="search" method="post">
+                                            <div class="input-group">
+                                                <input name="Search" type="text" class="form-control" placeholder="Write your text">
+                                                <span class="input-group-btn">
+                                                        <button type="submit" class="site-button"><i class="fa fa-search"></i></button>
+                                                </span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- SEARCH BLOCK END -->
+
+                                <!-- RECENT POST BLOCK START -->
+                                <div class="widget bg-white recent-posts-entry">
+                                    <h4 class="widget-title">最新節目</h4>
+                                    <div class="widget-post-bx">
+                                        <div class="widget-post clearfix">
+                                            <div class="wt-post-media">
+                                                <img src="images/gallery/pic7.jpg" alt="">
+                                            </div>
+                                            <div class="wt-post-info">
+                                                <div class="wt-post-header">
+                                                    <h6 class="post-title">擁有小狗般無辜眼神，看到她，你不可能不融化!</h6>
+                                                </div>
+                                                <div class="wt-post-meta">
+                                                    <ul>
+                                                        <li class="post-author">2017-11-16</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="widget-post clearfix">
+                                            <div class="wt-post-media">
+                                                <img src="images/gallery/pic8.jpg" width="200" height="160" alt="">
+                                            </div>
+                                            <div class="wt-post-info">
+                                                <div class="wt-post-header">
+                                                    <h6 class="post-title">擁有小狗般無辜眼神，看到她，你不可能不融化!</h6>
+                                                </div>
+                                                <div class="wt-post-meta">
+                                                    <ul>
+                                                        <li class="post-author">2017-11-16</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="widget-post clearfix">
+                                            <div class="wt-post-media">
+                                                <img src="images/gallery/pic9.jpg" width="200" height="160" alt="">
+                                            </div>
+                                            <div class="wt-post-info">
+                                                <div class="wt-post-header">
+                                                    <h6 class="post-title">擁有小狗般無辜眼神，看到她，你不可能不融化!</h6>
+                                                </div>
+                                                <div class="wt-post-meta">
+                                                    <ul>
+                                                        <li class="post-author">2017-11-16</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- RECENT POST BLOCK START -->
+                                <!-- TAGS BLOCK START -->
+                                <div class="widget widget_tag_cloud">
+                                    <h4 class="tagcloud">標籤</h4>
+                                    <div class="tagcloud">
+                                        <a href="javascript:void(0);">性感</a>
+                                        <a href="javascript:void(0);">可愛</a>
+                                        <a href="javascript:void(0);">台灣女孩</a>
+                                    </div>
+                                </div>
+                                <!-- TAGS BLOCK END -->
+
+                            </aside>
+
+                        </div>
+                        <!-- SIDE BAR END -->
+                        <!-- RIGHT PART START -->
+                        <div class="col-md-9">
+                            <div class="row">
+                                <!-- BLOG GRID START -->
+                                <div class="portfolio-wrap wt-blog-grid-3">
+                                    <!-- COLUMNS 1 -->
+                                    <div class="post masonry-item col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="blog-post blog-grid date-style-3 live_list">
+                                            <div class="wt-post-media wt-img-effect zoom-slow">
+                                                <a href="live_ins.html"><img src="images/gallery/pic7.jpg" alt=""></a>
+                                            </div>
+                                            <div class="wt-post-info p-tb30 p-m30">
+                                                <div class="wt-post-title ">
+                                                    <h3 class="post-title"><a href="live_ins.html">擁有小狗般無辜眼神，看到她，你不可能不融化!</a></h3>
+                                                </div>
+                                                <div class="wt-post-meta ">
+                                                    <ul>
+                                                        <li class="post-date"> <i class="fa fa-television" aria-hidden="true"></i><strong>10 Aug</strong> <span> 2016</span> </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="wt-post-text">
+                                                    這次SUN咩咩要來介紹這位台灣女模洪雅妮。本身跑遍各大展場、外拍、活動，經驗十分豐富，外型亮麗身材比例完美，並有著小狗般無辜的眼神，任誰看了都想疼惜
+                                                </div>
+                                                <div class="wt-post-readmore">
+                                                    <a href="live_ins.html" title="READ MORE" rel="bookmark" class="site-button-link">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                                                </div>
+                                                <div class="wt-post-tags">
+                                                    <div class="post-tags">
+                                                        <a href="javascript:void(0);">可愛</a>
+                                                        <a href="javascript:void(0);">台灣女孩</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- COLUMNS 2 -->
+                                    <div class="post masonry-item col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="blog-post blog-grid date-style-3 live_list">
+                                            <div class="wt-post-media wt-img-effect zoom-slow">
+                                                <a href="live_ins.html"><img src="images/gallery/pic6.jpg" alt=""></a>
+                                            </div>
+                                            <div class="wt-post-info p-tb30 p-m30">
+                                                <div class="wt-post-title ">
+                                                    <h3 class="post-title"><a href="live_ins.html">擁有小狗般無辜眼神，看到她，你不可能不融化!</a></h3>
+                                                </div>
+                                                <div class="wt-post-meta ">
+                                                    <ul>
+                                                        <li class="post-date"> <i class="fa fa-television" aria-hidden="true"></i><strong>10 Aug</strong> <span> 2016</span> </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="wt-post-text">
+                                                    <p>這次SUN咩咩要來介紹這位台灣女模洪雅妮。本身跑遍各大展場、外拍、活動，經驗十分豐富，外型亮麗身材比例完美，並有著小狗般無辜的眼神，任誰看了都想疼惜</p>
+                                                </div>
+                                                <div class="wt-post-readmore">
+                                                    <a href="live_ins.html" title="READ MORE" rel="bookmark" class="site-button-link">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                                                </div>
+                                                <div class="wt-post-tags">
+                                                    <div class="post-tags">
+                                                        <a href="javascript:void(0);">可愛</a>
+                                                        <a href="javascript:void(0);">台灣女孩</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- COLUMNS 3 -->
+                                    <div class="post masonry-item col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="blog-post blog-grid date-style-3 live_list">
+                                            <div class="wt-post-media wt-img-effect zoom-slow">
+                                                <a href="live_ins.html"><img src="images/gallery/pic4.jpg" alt=""></a>
+                                            </div>
+                                            <div class="wt-post-info p-tb30 p-m30">
+                                                <div class="wt-post-title ">
+                                                    <h3 class="post-title"><a href="live_ins.html">擁有小狗般無辜眼神，看到她，你不可能不融化!</a></h3>
+                                                </div>
+                                                <div class="wt-post-meta ">
+                                                    <ul>
+                                                        <li class="post-date"> <i class="fa fa-television" aria-hidden="true"></i><strong>10 Aug</strong> <span> 2016</span> </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="wt-post-text">
+                                                    <p>這次SUN咩咩要來介紹這位台灣女模洪雅妮。本身跑遍各大展場、外拍、活動，經驗十分豐富，外型亮麗身材比例完美，並有著小狗般無辜的眼神，任誰看了都想疼惜</p>
+                                                </div>
+                                                <div class="wt-post-readmore">
+                                                    <a href="live_ins.html" title="READ MORE" rel="bookmark" class="site-button-link">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                                                </div>
+                                                <div class="wt-post-tags">
+                                                    <div class="post-tags">
+                                                        <a href="javascript:void(0);">可愛</a>
+                                                        <a href="javascript:void(0);">台灣女孩</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- COLUMNS 4-->
+                                    <div class="post masonry-item col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="blog-post blog-grid date-style-3 live_list">
+                                            <div class="wt-post-media wt-img-effect zoom-slow">
+                                                <a href="live_ins.html"><img src="images/gallery/pic3.jpg" alt=""></a>
+                                            </div>
+                                            <div class="wt-post-info p-tb30 p-m30">
+                                                <div class="wt-post-title ">
+                                                    <h3 class="post-title"><a href="live_ins.html">擁有小狗般無辜眼神，看到她，你不可能不融化!</a></h3>
+                                                </div>
+                                                <div class="wt-post-meta ">
+                                                    <ul>
+                                                        <li class="post-date"> <i class="fa fa-television" aria-hidden="true"></i><strong>10 Aug</strong> <span> 2016</span> </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="wt-post-text">
+                                                    <p>這次SUN咩咩要來介紹這位台灣女模洪雅妮。本身跑遍各大展場、外拍、活動，經驗十分豐富，外型亮麗身材比例完美，並有著小狗般無辜的眼神，任誰看了都想疼惜</p>
+                                                </div>
+                                                <div class="wt-post-readmore">
+                                                    <a href="live_ins.html" title="READ MORE" rel="bookmark" class="site-button-link">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                                                </div>
+                                                <div class="wt-post-tags">
+                                                    <div class="post-tags">
+                                                        <a href="javascript:void(0);">可愛</a>
+                                                        <a href="javascript:void(0);">台灣女孩</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- COLUMNS 5 -->
+                                    <div class="post masonry-item col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="blog-post blog-grid date-style-3 live_list">
+                                            <div class="wt-post-media wt-img-effect zoom-slow">
+                                                <a href="live_ins.html"><img src="images/gallery/pic2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="wt-post-info p-tb30 p-m30">
+                                                <div class="wt-post-title ">
+                                                    <h3 class="post-title"><a href="live_ins.html">擁有小狗般無辜眼神，看到她，你不可能不融化!</a></h3>
+                                                </div>
+                                                <div class="wt-post-meta ">
+                                                    <ul>
+                                                        <li class="post-date"> <i class="fa fa-television" aria-hidden="true"></i><strong>10 Aug</strong> <span> 2016</span> </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="wt-post-text">
+                                                    <p>這次SUN咩咩要來介紹這位台灣女模洪雅妮。本身跑遍各大展場、外拍、活動，經驗十分豐富，外型亮麗身材比例完美，並有著小狗般無辜的眼神，任誰看了都想疼惜</p>
+                                                </div>
+                                                <div class="wt-post-readmore">
+                                                    <a href="live_ins.html" title="READ MORE" rel="bookmark" class="site-button-link">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                                                </div>
+                                                <div class="wt-post-tags">
+                                                    <div class="post-tags">
+                                                        <a href="javascript:void(0);">可愛</a>
+                                                        <a href="javascript:void(0);">台灣女孩</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- COLUMNS 6 -->
+                                    <div class="post masonry-item col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="blog-post blog-grid date-style-3 live_list">
+                                            <div class="wt-post-media wt-img-effect zoom-slow">
+                                                <a href="live_ins.html"><img src="images/gallery/pic9.jpg" alt=""></a>
+                                            </div>
+                                            <div class="wt-post-info p-tb30 p-m30">
+                                                <div class="wt-post-title ">
+                                                    <h3 class="post-title"><a href="live_ins.html">擁有小狗般無辜眼神，看到她，你不可能不融化!</a></h3>
+                                                </div>
+                                                <div class="wt-post-meta ">
+                                                    <ul>
+                                                        <li class="post-date"> <i class="fa fa-television" aria-hidden="true"></i><strong>10 Aug</strong> <span> 2016</span> </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="wt-post-text">
+                                                    <p>這次SUN咩咩要來介紹這位台灣女模洪雅妮。本身跑遍各大展場、外拍、活動，經驗十分豐富，外型亮麗身材比例完美，並有著小狗般無辜的眼神，任誰看了都想疼惜</p>
+                                                </div>
+                                                <div class="wt-post-readmore">
+                                                    <a href="live_ins.html" title="READ MORE" rel="bookmark" class="site-button-link">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                                                </div>
+                                                <div class="wt-post-tags">
+                                                    <div class="post-tags">
+                                                        <a href="javascript:void(0);">可愛</a>
+                                                        <a href="javascript:void(0);">台灣女孩</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- BLOG GRID END -->
+
+                                <!-- PAGINATION START -->
+                                <div class="pagination-bx col-lg-12 clearfix ">
+                                    <ul class="custom-pagination pagination">
+                                        <li><a href="#">&laquo;</a></li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">&raquo;</a></li>
+                                    </ul>
+                                </div>
+                                <!-- PAGINATION END -->
+
+                            </div>
+                        </div>
+                        <!-- LEFT PART END -->
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- SECTION CONTENT END -->
+
+        </div>
+        <!-- CONTENT END -->
+
+        <!-- FOOTER START -->
+        <footer class="site-footer footer-light">
+            <!-- COLL-TO ACTION START -->
+            <div class="section-full overlay-wraper bg-primary" style="background-image:url(images/background/bg-7.png);">
+
+                <div class="section-content ">
+                    <!-- COLL-TO ACTION START -->
+                    <div class="wt-subscribe-box">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-8">
+                                    <div class="call-to-action-left p-tb20 p-r50">
+                                        <h4 class="text-uppercase m-b10">有遇到遊戲上的困難嗎？</h4>
+                                        <p>請隨時聯繫我們</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="call-to-action-right p-tb30">
+                                        <a href="contact-1.html" class="site-button-secondry text-uppercase radius-sm font-weight-600">
+                                            我需要協助
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- FOOTER COPYRIGHT -->
+            <div class="footer-bottom overlay-wraper">
+                <div class="overlay-main"></div>
+                <!-- <div class="constrot-strip"></div> -->
+                <div class="container p-t30">
+                    <div class="row">
+                        <div class="wt-footer-bot-left">
+                            <span class="copyrights-text">© 2017 Company Name. All Rights Reserved.</span>
+                        </div>
+                        <div class="wt-footer-bot-right">
+                            <ul class="copyrights-nav pull-right">
+                                <!--
+                                <li><a href="javascript:void(0);">Terms  & Condition</a></li>
+                                <li><a href="javascript:void(0);">Privacy Policy</a></li>
+                                <li><a href="contact-1.html">Contact Us</a></li>
+                                -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+
+        <!-- BUTTON TOP START -->
+        <button class="scroltop fa fa-arrow-up"></button>
+
+    </div>
+
+
+    <!-- JAVASCRIPT  FILES ========================================= -->
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <!-- JQUERY.MIN JS -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- BOOTSTRAP.MIN JS -->
+
+    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+    <!-- FORM JS -->
+    <script type="text/javascript" src="js/jquery.bootstrap-touchspin.min.js"></script>
+    <!-- FORM JS -->
+
+    <script type="text/javascript" src="js/magnific-popup.min.js"></script>
+    <!-- MAGNIFIC-POPUP JS -->
+
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <!-- WAYPOINTS JS -->
+    <script type="text/javascript" src="js/counterup.min.js"></script>
+    <!-- COUNTERUP JS -->
+    <script type="text/javascript" src="js/waypoints-sticky.min.js"></script>
+    <!-- COUNTERUP JS -->
+
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <!-- MASONRY  -->
+
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <!-- OWL  SLIDER  -->
+
+    <script type="text/javascript" src="js/stellar.min.js"></script>
+    <!-- PARALLAX BG IMAGE   -->
+    <script type="text/javascript" src="js/scrolla.min.js"></script>
+    <!-- ON SCROLL CONTENT ANIMTE   -->
+
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- CUSTOM FUCTIONS  -->
+    <script type="text/javascript" src="js/shortcode.js"></script>
+    <!-- SHORTCODE FUCTIONS  -->
+    <script type="text/javascript" src="js/jquery.ellipsis.min.js"></script>
+    <script>
+        $(function() {
+            $('.wt-post-text').ellipsis();
+        });
+    </script>
+
+
+
+
+    <!-- LOADING AREA START ===== -->
+    <div class="loading-area">
+        <div class="loading-box"></div>
+        <div class="loading-pic">
+            <div class="cssload-container">
+                <div class="cssload-progress cssload-float cssload-shadow">
+                    <div class="cssload-progress-item"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LOADING AREA  END ====== -->
+
+
+
+
+
+
+<script>
+    $(document).ready(function(){
+        console.log("ready1s");
+    });
+
+    var getLoginSession = function(token){
+        //console.log("getLoginSession", token);
+        $.post("/api/login.php",{
+                accesstoken: token
+            },
+            function(data, status){
+                console.log("login success", data);
+            });
+    };
+
+    var changeFBStatus = function(response){
+
+        if (response.authResponse) {
+            FB.api('/me/?fields=picture,name', function(me) {
+                document.getElementById("nameBlock").innerHTML = me.name;
+
+                //console.log($('.fb_username').val());
+
+                //$('.fb_username').val(me.name);
+
+                //console.log('FB.me', me);
+                getLoginSession(response.authResponse.accessToken);
+            });
+
+            document.getElementById("loginButton").style.display = "none";
+            document.getElementById("logoutButton").style.display = "inline";
+        } else {
+            alert('Facebook 權限發生錯誤');
+        }
+
+    };
+
+
+    var logInWithFacebook = function() {
+        FB.login(function(response) {
+
+            changeFBStatus(response);
+
+        }, {scope: 'public_profile,email'});
+
+        return false;
+    };
+
+
+    var logoutWithFacebook = function(){
+        FB.logout(function(response) {
+            $.post("/api/logout.php",{
+                    //accesstoken: token
+                },
+                function(data,status){
+                    //console.log("logout:", data);
+                    window.location.reload();
+                });
+
+        });
+    };
+
+
+    // 同步Facebook
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId: '401417810290014',
+            cookie: true, // This is important, it's not enabled by default
+            version: 'v2.10'
+        });
+
+        FB.getLoginStatus(function(response) {
+
+            if (response.status === 'connected') {
+
+                changeFBStatus(response);
+
+            } else {
+                document.getElementById("loginButton").style.display = "inline";
+                document.getElementById("logoutButton").style.display = "none";
+            }
+        });
+
+    };
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.11&appId=401417810290014';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+</body>
+
+</html>

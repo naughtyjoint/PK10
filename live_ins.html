@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+    <meta name="description" content="" />
+
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+    <!-- PAGE TITLE HERE -->
+    <title>PKBar Online</title>
+
+    <!-- MOBILE SPECIFIC -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- [if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif] -->
+
+    <!-- BOOTSTRAP STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- FONTAWESOME STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css" />
+    <!-- FLATICON STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/flaticon.min.css">
+    <!-- ANIMATE STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <!-- OWL CAROUSEL STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <!-- BOOTSTRAP SELECT BOX STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <!-- MAGNIFIC POPUP STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css">
+    <!-- LOADER STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/loader.min.css">
+    <!-- MAIN STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- THEME COLOR CHANGE STYLE SHEET -->
+    <link rel="stylesheet" class="skin" type="text/css" href="css/skin/skin-1.css">
+    <!-- CUSTOM  STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+
+
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,800,700italic' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+
+<div class="page-wraper">
+    <!-- HEADER START -->
+    <header class="site-header header-style-1 ">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="wt-topbar-left clearfix">
+                        <ul class="list-unstyled e-p-bx pull-right">
+
+                                <li><i class="fa fa-envelope"></i>mail@xxx.com</li>
+
+                                <li>
+                                    <button id="loginButton" class="m-b15 graphical  btn-primary blue  m-r5" onClick="logInWithFacebook()" type="button" style="display:none;padding:0;margin:0;border:0;">
+                                        <span class="site-button-inr">
+                                            <i class="fa fa-facebook-f" style="line-height:20px;"></i> <span style="padding:10px 5px 5px 0px;text-align:left;">登入</span>
+                                        </span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button id="logoutButton" class="m-b15 graphical  btn-primary blue  m-r5" onClick="logoutWithFacebook()" type="button" style="display:none;padding:0;margin:0;border:0;">
+                                        <span class="site-button-inr">
+                                            <i class="fa fa-facebook-f" style="line-height:20px;"></i> <span id="nameBlock"></span> <span style="padding:10px 5px 5px 0px;text-align:left;">登出</span>
+                                        </span>
+                                    </button>
+                                </li>
+
+                        </ul>
+                    </div>
+                    <!--
+                    <div class="wt-topbar-right clearfix">
+                        <ul class="social-bx list-inline pull-right">
+                            <li>
+                                <a href="javascript:void(0);" class="fa fa-facebook"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+        <div class="sticky-header main-bar-wraper">
+            <div class="main-bar bg-white">
+                <div class="container">
+                    <div class="logo-header">
+                        <a href="index.html">
+                            <img src="images/logo.png" width="43" height="20" alt="" />
+                        </a>
+                    </div>
+                    <!-- NAV Toggle Button -->
+                    <button data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggle collapsed">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- MAIN Nav -->
+                    <div class="header-nav navbar-collapse collapse ">
+                        <ul class=" nav navbar-nav">
+                            <li>
+                                <a href="index.html">首頁</a>
+                            </li>
+                            <li class="active">
+                                <a href="live.html">直播節目</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- CONTENT START -->
+
+    <!-- BREADCRUMB ROW END -->
+
+    <!-- SECTION CONTENT START -->
+    <div class="section-full p-t50 p-b50 clearfix">
+        <div class="container_live">
+
+            <!-- BLOG START -->
+            <div class="col-md-9 blog-post date-style-1 blog-detail">
+
+                <div class="fb-video" data-href="https://www.facebook.com/facebook/videos/10153231379946729/" data-show-text="false">
+
+                    <div class="fb-xfbml-parse-ignore">
+                        <blockquote cite="https://www.facebook.com/facebook/videos/10153231379946729/">
+                            <a href="https://www.facebook.com/facebook/videos/10153231379946729/">最優質的線上直播節目...</a>
+                            <p>最優質的線上直播節目</p>
+                            Posted by <a href="https://www.facebook.com/facebook/">Facebook</a> on Friday, December 5, 2014
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="wt-post-meta ">
+                    <ul>
+                        <li class="post-date">2017-11-01</li>
+                    </ul>
+                </div>
+                <div class="wt-post-title ">
+                    <h3 class="post-title"><a href="javascript:void(0);">擁有小狗般無辜眼神，看到她，你不可能不融化!</a></h3>
+                </div>
+
+                <div class="wt-post-tags p-b20">
+                    <div class="post-tags">
+                        <a href="javascript:void(0);">可愛</a>
+                        <a href="javascript:void(0);">台灣女孩</a>
+                    </div>
+                </div>
+                <div class="wt-post-text">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.</p>
+                </div>
+            </div>
+            <div class="col-md-3" id="comment-list">
+                <div class="comments-area" id="comments">
+                    <div class="p-b30">
+                        <h4><i class="fa fa-comments-o" aria-hidden="true"></i>聊天室</h4>
+                        <ol class="comment-list" id="chatListBlock" style="height:400px;">
+
+                            <!--
+                            <li class="comment">
+                                <div class="comment-body">
+                                    <div class="comment-author vcard">
+                                        <img class="avatar photo" src="images/gallery/pic9.jpg" alt="">
+                                        <cite class="fn">林大偉</cite>
+                                    </div>
+                                    <div class="comment-meta">07:15:18</div>
+                                    <p>我元助你囉!!</p>
+                                </div>
+                            </li>
+                            -->
+
+                        </ol>
+                        <div class="reply">
+                            <input type="text" id="chatInput" disabled placeholder="請輸入留言">
+                            <button id="chatSubmitButton" style="display:none;">留言</button>
+                            <button class="m-b15 graphical  btn-primary blue  m-r5" id="chatLoginButton"  onClick="logInWithFacebook()" type="button" style="padding:0;margin:0;">
+                                <span class="site-button-inr"><i class="fa fa-facebook"></i>
+                                    <span style="padding:10px 5px;line-height:40px;text-align:left;">請先登入</span>
+                                </span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="contributeForm" class="pointBox clearfix">
+                    <div class="form long">
+                        <label>元助主播:</label>
+                        <select name="anchor" >
+                            <option value="1">多朵</option>
+                            <option value="2">朱兒</option>
+                            <option value="3">若嵐</option>
+                            <option value="4">張螞蟻</option>
+                        </select>
+                    </div>
+                    <div class="form long">
+                        <label>贈送元助點數:</label><input type="text" placeholder="請輸入點數" name="point">
+                    </div>
+                    <div class="form long">
+                        <label>給她一句鼓勵的話:</label><input type="text" placeholder="" name="content">
+                    </div>
+
+                    <div class="wt-box">
+                        <button type="submit" value="submit" id="contributeButton" class="site-button m-r5" style="margin: 10px 0; border-radius: 5px;">元助</button>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOG END -->
+
+        </div>
+    </div>
+    <!-- SECTION CONTENT END -->
+
+</div>
+<!-- CONTENT END -->
+
+<!-- FOOTER START -->
+<footer class="site-footer footer-light">
+    <!-- COLL-TO ACTION START -->
+    <div class="section-full overlay-wraper bg-primary" style="background-image:url(images/background/bg-7.png);">
+
+        <div class="section-content ">
+            <!-- COLL-TO ACTION START -->
+            <div class="wt-subscribe-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8">
+                            <div class="call-to-action-left p-tb20 p-r50">
+                                <h4 class="text-uppercase m-b10">有遇到遊戲上的困難嗎？</h4>
+                                <p>請隨時聯繫我們</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="call-to-action-right p-tb30">
+                                <a href="contact-1.html" class="site-button-secondry text-uppercase radius-sm font-weight-600">
+                                    我需要協助
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- FOOTER COPYRIGHT -->
+    <div class="footer-bottom overlay-wraper">
+        <div class="overlay-main"></div>
+        <!-- <div class="constrot-strip"></div> -->
+        <div class="container p-t30">
+            <div class="row">
+                <div class="wt-footer-bot-left">
+                    <span class="copyrights-text">© 2017 Company Name. All Rights Reserved.</span>
+                </div>
+                <div class="wt-footer-bot-right">
+                    <ul class="copyrights-nav pull-right">
+                        <!--
+                            <li><a href="javascript:void(0);">Terms  & Condition</a></li>
+                            <li><a href="javascript:void(0);">Privacy Policy</a></li>
+                            <li><a href="contact-1.html">Contact Us</a></li>
+                            -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER END -->
+
+<!-- BUTTON TOP START -->
+<button class="scroltop fa fa-arrow-up"></button>
+
+</div>
+
+
+<!-- JAVASCRIPT  FILES ========================================= -->
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<!-- JQUERY.MIN JS -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- BOOTSTRAP.MIN JS -->
+
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+<!-- FORM JS -->
+<script type="text/javascript" src="js/jquery.bootstrap-touchspin.min.js"></script>
+<!-- FORM JS -->
+
+<script type="text/javascript" src="js/magnific-popup.min.js"></script>
+<!-- MAGNIFIC-POPUP JS -->
+
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<!-- WAYPOINTS JS -->
+<script type="text/javascript" src="js/counterup.min.js"></script>
+<!-- COUNTERUP JS -->
+<script type="text/javascript" src="js/waypoints-sticky.min.js"></script>
+<!-- COUNTERUP JS -->
+
+<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+<!-- MASONRY  -->
+
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<!-- OWL  SLIDER  -->
+
+<script type="text/javascript" src="js/stellar.min.js"></script>
+<!-- PARALLAX BG IMAGE   -->
+<script type="text/javascript" src="js/scrolla.min.js"></script>
+<!-- ON SCROLL CONTENT ANIMTE   -->
+
+<script type="text/javascript" src="js/custom.js"></script>
+<!-- CUSTOM FUCTIONS  -->
+<script type="text/javascript" src="js/shortcode.js"></script>
+<!-- SHORTCODE FUCTIONS  -->
+
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.11&appId=401417810290014';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+<!-- LOADING AREA START ===== -->
+<div class="loading-area">
+    <div class="loading-box"></div>
+    <div class="loading-pic">
+        <div class="cssload-container">
+            <div class="cssload-progress cssload-float cssload-shadow">
+                <div class="cssload-progress-item"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- LOADING AREA  END ====== -->
+
+
+
+
+
+
+
+
+<script>
+    var fb_name = "",
+        fb_picture = "",
+        fb_userid = "";
+
+
+
+    $(document).ready(function(){
+
+        $.fn.scrollBottom = function() {
+            console.log($(document).height() + " " + this.scrollTop() + " " + this.height());
+            return $(document).height() - this.scrollTop() - this.height();
+        };
+
+        var submitChatMessage = function(chatComment){
+            console.log(fb_name, fb_picture, fb_userid);
+            var dd = new Date();
+            var chatCommentDate = dd.getFullYear() + "/" + (dd.getMonth()+1) + "/" + dd.getDay() + " " + dd.getHours() + ":" + dd.getMinutes() + ":" + dd.getSeconds();
+
+
+            var chatContent =   "<li class='comment'>" +
+                "<div class='comment-body'>" +
+                "<div class='comment-author vcard'>" +
+                "<img class='avatar photo' src='" + fb_picture + "' alt=''>" +
+                "<cite class='fn'>" + fb_name + "</cite>" +
+                "</div>" +
+                "<div class=\"comment-meta\">" + chatCommentDate + "</div>" +
+                "<p>"+ chatComment +"</p>" +
+                "</div></li>";
+
+            if(chatComment && 0 != chatComment.length ) {
+
+                $("#chatListBlock").prepend(chatContent);
+                $("#chatInput").val("");
+                $("#chatListBlock").scrollBottom();
+            };
+        };
+
+        $("#chatSubmitButton").on("click",function(){
+            var chatComment = $("#chatInput").val().trim() ? $("#chatInput").val() : "";
+            submitChatMessage(chatComment);
+        });
+
+        $("#contributeButton").click(function(){
+           console.log(typeof(parseInt($("#contributeForm").find("[name='point']").val())), $("#contributeForm").find("[name='anchor']").val(), $("#contributeForm").find("[name='point']").val(), $("#contributeForm").find("[name='content']").val());
+
+           if(typeof(parseInt($("#contributeForm").find("[name='point']").val()))==="number" && parseInt($("#contributeForm").find("[name='point']").val()) > 0){
+               $.post("/api/contribute.php",{
+                   anchor_id: $("#contributeForm").find("[name='anchor']").val(),
+                   point: $("#contributeForm").find("[name='point']").val(),
+                   content: $("#contributeForm").find("[name='content']").val()
+               },
+               function(data, status){
+                   console.log("Success", data);
+                   if(data.success) {
+                       alert("元助了 " + data.result.anc_name + " " + data.result.point + " 點成功，點數剩餘 " + data.result.member_point + "點。");
+                       submitChatMessage("元助了 " + data.result.anc_name + " " + data.result.anc_name + " " + data.result.point + " 點, " + data.result.content);
+                   }else{
+                       alert("元助了 " + data.result.anc_name + " " + data.result.point + " 點失敗 " + data.result.message+ " ，點數剩餘 " + data.result.member_point + "點。");
+                   }
+               });
+           }else{
+               alert("請先登入");
+           }
+
+        });
+    });
+
+    var getLoginSession = function(token){
+        //console.log("getLoginSession", token);
+        $.post("/api/login.php",{
+                accesstoken: token
+            },
+            function(data, status){
+                console.log("login success", data);
+            });
+    };
+
+    var changeFBStatus = function(response){
+
+        if (response.authResponse) {
+            FB.api('/me/?fields=picture,name', function(me) {
+                document.getElementById("nameBlock").innerHTML = me.name;
+
+
+
+                console.log('FB.me', me);
+
+                fb_name = me.name;
+                fb_picture = me.picture.data.url;
+
+                getLoginSession(response.authResponse.accessToken);
+            });
+
+            document.getElementById("loginButton").style.display = "none";
+            document.getElementById("logoutButton").style.display = "inline";
+
+            document.getElementById("chatSubmitButton").style.display = "inline";
+            document.getElementById("chatLoginButton").style.display = "none";
+            document.getElementById("chatInput").removeAttribute("disabled");
+
+
+
+        } else {
+            alert('Facebook 權限發生錯誤');
+        }
+
+    };
+
+
+    var logInWithFacebook = function() {
+        FB.login(function(response) {
+
+            changeFBStatus(response);
+
+        }, {scope: 'public_profile,email'});
+
+        return false;
+    };
+
+
+    var logoutWithFacebook = function(){
+        FB.logout(function(response) {
+            $.post("/api/logout.php",{
+                    //accesstoken: token
+                },
+                function(data,status){
+                    //console.log("logout:", data);
+                    window.location.reload();
+                });
+
+        });
+    };
+
+
+    // 同步Facebook
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId: '401417810290014',
+            cookie: true, // This is important, it's not enabled by default
+            version: 'v2.10'
+        });
+
+        FB.getLoginStatus(function(response) {
+
+            if (response.status === 'connected') {
+
+                changeFBStatus(response);
+
+            } else {
+                document.getElementById("loginButton").style.display = "inline";
+                document.getElementById("logoutButton").style.display = "none";
+
+                document.getElementById("chatSubmitButton").style.display = "none";
+                document.getElementById("chatLoginButton").style.display = "inline";
+                document.getElementById("chatInput").setAttribute("disabled","disabled");
+            }
+        });
+
+    };
+
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.11&appId=401417810290014';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+</body>
+
+</html>
